@@ -1,61 +1,276 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-AO">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Atende.aí é uma plataforma de automação de atendimento, agendamento e relacionamento para clínicas e empresas.">
-  <meta name="theme-color" content="#0f172a">
-  <meta property="og:title" content="Atende.aí">
-  <meta property="og:description" content="Automação de atendimento e agendamento para clínicas e empresas.">
+  <meta name="description" content="Atende.aí organiza o atendimento da sua clínica, centraliza conversas e ajuda a equipa a responder pacientes mais rapidamente.">
+  <meta name="theme-color" content="#1F2930">
+  <meta property="og:title" content="Atende.aí | Atendimento organizado para clínicas">
+  <meta property="og:description" content="Centralize conversas, acompanhe pacientes e torne o atendimento da sua clínica mais rápido e organizado.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://atendeai.cc/">
-  <title>Atende.aí | Atendimento e agendamento automatizados</title>
+  <title>Atende.aí | Atendimento organizado para clínicas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="hero" aria-labelledby="page-title">
-    <section class="hero-content">
-      <p class="eyebrow">Atendimento inteligente para equipas modernas</p>
-      <h1 id="page-title">Atende.aí</h1>
-      <p class="lead">Automatize atendimentos, organize conversas e simplifique agendamentos em clínicas e empresas.</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Atende.aí">
+      <span class="brand-mark" aria-hidden="true">aí</span>
+      <span>Atende.aí</span>
+    </a>
+    <nav class="header-nav" aria-label="Navegação principal">
+      <a href="#solucao">Solução</a>
+      <a href="#demonstracao">Demonstração</a>
+      <a href="#investimento">Investimento</a>
+    </nav>
+    <a class="header-cta" href="#demonstracao">Ver demonstração</a>
+  </header>
 
-      <div class="actions" aria-label="Ações principais">
-        <a href="https://app.atendeai.cc" class="button button-primary">Entrar na Plataforma</a>
-        <a href="terms.html" class="button button-secondary">Ver termos</a>
+  <main>
+    <section class="hero section-dark" aria-labelledby="hero-title">
+      <div class="section-shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Plataforma de atendimento para clínicas</p>
+          <h1 id="hero-title">Sua clínica perde pacientes sem perceber.</h1>
+          <p class="hero-lead">O Atende.aí organiza o atendimento, centraliza conversas e ajuda a sua equipa a responder pacientes mais rapidamente.</p>
+          <div class="hero-actions" aria-label="Ações principais">
+            <a class="button button-primary" href="#demonstracao">Ver demonstração</a>
+            <a class="button button-secondary" href="https://wa.me/244000000000?text=Quero%20falar%20sobre%20o%20Atende.a%C3%AD">Falar no WhatsApp</a>
+          </div>
+          <ul class="trust-list" aria-label="Principais vantagens">
+            <li>Conversas centralizadas</li>
+            <li>Pacientes acompanhados</li>
+            <li>Equipa mais rápida</li>
+          </ul>
+        </div>
+
+        <div class="app-mockup" aria-label="Pré-visualização do sistema Atende.aí">
+          <div class="mockup-topbar">
+            <span></span>
+            <span></span>
+            <span></span>
+            <strong>Atendimento hoje</strong>
+          </div>
+          <div class="mockup-body">
+            <aside class="mockup-sidebar" aria-hidden="true">
+              <span class="sidebar-dot active"></span>
+              <span class="sidebar-dot"></span>
+              <span class="sidebar-dot"></span>
+              <span class="sidebar-dot"></span>
+            </aside>
+            <div class="mockup-panel">
+              <div class="queue-card is-active">
+                <div>
+                  <strong>Maria Fernandes</strong>
+                  <span>Consulta de seguimento</span>
+                </div>
+                <em>2 min</em>
+              </div>
+              <div class="queue-card">
+                <div>
+                  <strong>João Pedro</strong>
+                  <span>Pedido de marcação</span>
+                </div>
+                <em>6 min</em>
+              </div>
+              <div class="queue-card">
+                <div>
+                  <strong>Cláudia Manuel</strong>
+                  <span>Confirmação de horário</span>
+                </div>
+                <em>12 min</em>
+              </div>
+            </div>
+            <div class="mockup-conversation">
+              <div class="patient-status">
+                <span></span>
+                <div>
+                  <strong>Paciente acompanhado</strong>
+                  <p>Histórico, mensagens e próxima acção no mesmo lugar.</p>
+                </div>
+              </div>
+              <div class="message incoming">Olá, gostaria de confirmar a minha consulta.</div>
+              <div class="message outgoing">Claro. A sua consulta está marcada para amanhã às 10h30.</div>
+              <div class="next-step">
+                <span>Próxima acção</span>
+                <strong>Enviar lembrete antes da consulta</strong>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <nav class="legal-links" aria-label="Links legais">
-        <a href="privacy.html">Política de Privacidade</a>
-        <a href="terms.html">Termos de Uso</a>
-      </nav>
     </section>
 
-    <section class="product-preview" aria-label="Resumo da plataforma">
-      <div class="preview-header">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="metric-row">
+    <section class="section section-light" aria-labelledby="problema-title">
+      <div class="section-shell split-layout">
         <div>
-          <strong>Atendimentos</strong>
-          <span>Centralizados</span>
+          <p class="eyebrow dark">O problema</p>
+          <h2 id="problema-title">O problema não é falta de pacientes.</h2>
+          <p class="section-lead">Muitas clínicas perdem oportunidades por mensagens sem resposta, demora no atendimento, falta de acompanhamento e informações espalhadas.</p>
         </div>
+        <div class="problem-grid" aria-label="Problemas comuns em clínicas">
+          <article class="problem-card">
+            <span class="card-icon" aria-hidden="true"></span>
+            <h3>Mensagens perdidas</h3>
+            <p>Pedidos importantes ficam no meio de várias conversas.</p>
+          </article>
+          <article class="problem-card">
+            <span class="card-icon" aria-hidden="true"></span>
+            <h3>Pacientes à espera</h3>
+            <p>A demora passa uma imagem de desorganização.</p>
+          </article>
+          <article class="problem-card">
+            <span class="card-icon" aria-hidden="true"></span>
+            <h3>WhatsApp desorganizado</h3>
+            <p>Informações clínicas e comerciais ficam dispersas.</p>
+          </article>
+          <article class="problem-card">
+            <span class="card-icon" aria-hidden="true"></span>
+            <h3>Equipa sobrecarregada</h3>
+            <p>Tarefas repetitivas reduzem o foco no atendimento.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="solucao" aria-labelledby="solucao-title">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow dark">A solução</p>
+          <h2 id="solucao-title">Tudo o que a sua equipa precisa num único lugar.</h2>
+          <p class="section-lead">Organize o atendimento, acompanhe pacientes e dê à equipa uma forma clara de trabalhar todos os dias.</p>
+        </div>
+        <div class="pillars-grid">
+          <article class="pillar-card">
+            <span class="pillar-label">Atendimento</span>
+            <h3>Respostas mais rápidas</h3>
+            <ul>
+              <li>Conversas organizadas</li>
+              <li>Encaminhamento interno</li>
+              <li>Menos mensagens esquecidas</li>
+            </ul>
+          </article>
+          <article class="pillar-card">
+            <span class="pillar-label">Pacientes</span>
+            <h3>Histórico centralizado</h3>
+            <ul>
+              <li>Informações organizadas</li>
+              <li>Acompanhamento simplificado</li>
+              <li>Mais contexto para cada contacto</li>
+            </ul>
+          </article>
+          <article class="pillar-card">
+            <span class="pillar-label">Equipa</span>
+            <h3>Colaboração interna</h3>
+            <ul>
+              <li>Departamentos</li>
+              <li>Gestão operacional</li>
+              <li>Responsáveis claros por atendimento</li>
+            </ul>
+          </article>
+          <article class="pillar-card">
+            <span class="pillar-label">Automação</span>
+            <h3>Menos tarefas repetitivas</h3>
+            <ul>
+              <li>Respostas automáticas</li>
+              <li>Mais produtividade</li>
+              <li>Fluxos simples para a rotina</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="demonstracao" aria-labelledby="demo-title">
+      <div class="section-shell demo-grid">
         <div>
-          <strong>Agenda</strong>
-          <span>Organizada</span>
+          <p class="eyebrow dark">Demonstração</p>
+          <h2 id="demo-title">Veja como funciona na prática.</h2>
+          <div class="flow-list" aria-label="Fluxo de atendimento">
+            <div class="flow-step">
+              <span>1</span>
+              <p>Paciente envia mensagem</p>
+            </div>
+            <div class="flow-step">
+              <span>2</span>
+              <p>Atende.aí organiza o atendimento</p>
+            </div>
+            <div class="flow-step">
+              <span>3</span>
+              <p>Equipa acompanha tudo</p>
+            </div>
+            <div class="flow-step">
+              <span>4</span>
+              <p>Paciente recebe resposta rapidamente</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-placeholder" aria-label="Espaço para vídeo de demonstração">
+          <div class="play-button" aria-hidden="true"></div>
+          <strong>Vídeo de demonstração</strong>
+          <p>Espaço preparado para incorporar o vídeo do Atende.aí.</p>
         </div>
       </div>
-      <div class="message-card active">
-        <span>IA</span>
-        <p>Resposta automática preparada para o próximo atendimento.</p>
+    </section>
+
+    <section class="section section-muted" aria-labelledby="beneficios-title">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow dark">Benefícios</p>
+          <h2 id="beneficios-title">O que muda para a sua clínica?</h2>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-item">Menos pacientes perdidos</div>
+          <div class="benefit-item">Respostas mais rápidas</div>
+          <div class="benefit-item">Atendimento organizado</div>
+          <div class="benefit-item">Melhor acompanhamento</div>
+          <div class="benefit-item">Mais produtividade</div>
+          <div class="benefit-item">Mais controlo operacional</div>
+        </div>
       </div>
-      <div class="message-card">
-        <span>CRM</span>
-        <p>Histórico do cliente disponível para a equipa.</p>
+    </section>
+
+    <section class="section section-light" id="investimento" aria-labelledby="investimento-title">
+      <div class="section-shell investment-card">
+        <div>
+          <p class="eyebrow dark">Investimento</p>
+          <h2 id="investimento-title">Planos a partir de 14.500 Kz/mês</h2>
+          <p class="section-lead">Soluções adaptadas ao volume de atendimento, equipa e necessidades da clínica.</p>
+        </div>
+        <a class="button button-primary" href="https://wa.me/244000000000?text=Quero%20receber%20uma%20proposta%20do%20Atende.a%C3%AD">Receber proposta</a>
+      </div>
+    </section>
+
+    <section class="final-cta section-dark" aria-labelledby="final-title">
+      <div class="section-shell final-cta-grid">
+        <div>
+          <p class="eyebrow">Próximo passo</p>
+          <h2 id="final-title">A sua clínica está preparada para atender todos os pacientes rapidamente?</h2>
+        </div>
+        <div class="final-actions">
+          <a class="button button-primary" href="https://wa.me/244000000000?text=Quero%20receber%20uma%20proposta%20do%20Atende.a%C3%AD">Receber proposta</a>
+          <a class="button button-secondary" href="https://wa.me/244000000000?text=Quero%20falar%20sobre%20o%20Atende.a%C3%AD">Falar no WhatsApp</a>
+          <a class="button button-ghost" href="#demonstracao">Ver demonstração</a>
+        </div>
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-grid">
+      <div>
+        <a class="brand" href="index.html" aria-label="Atende.aí">
+          <span class="brand-mark" aria-hidden="true">aí</span>
+          <span>Atende.aí</span>
+        </a>
+        <p>© 2026 Atende.aí. Todos os direitos reservados.</p>
+        <small>Feito no laboratório da TRIV³.</small>
+      </div>
+      <nav class="footer-links" aria-label="Links legais">
+        <a href="privacy.html">Política de Privacidade</a>
+        <a href="terms.html">Termos de Uso</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
-
